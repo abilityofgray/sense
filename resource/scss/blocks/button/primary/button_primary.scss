@@ -1,0 +1,19 @@
+.button {
+  &__primary {
+    background-color: #272733;
+    color: #FFFFFF;
+    &:hover {
+      background-color: #151515;
+    }
+    &:active {
+      background-color: #151515;
+      color: rgba(255, 255, 255, .72);
+    }
+    &:focus-visible {
+      background-color: #151515;
+      border: #C5D1F7 solid 4px;
+    }
+    
+    
+  }
+}

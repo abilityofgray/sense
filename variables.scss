@@ -1,0 +1,30 @@
+
+
+:root {
+  //Primary/Default
+  --Text-Contrast: #FFFFFF;
+  --Radius_2: 5px;
+  --Icon-Contrast: #FFFFFF;
+  --Background-Accent: #272733;
+  //Primary/Hover
+  --Text-Contrast: #FFFFFF;
+  --Background-Primary-Hover: #151515;
+  --Icon-Contrast: #FFFFFF;
+  --Radius_2: 5px;
+  //Primary/Press
+  --State-Text-Primary: #FFFFFF;
+  --Background-Primary-Hover: #151515;
+  --Icon-Contrast-Press: #FFFFFF;
+  --Radius_2: 5px;
+  //Primary/Focus
+  --State-Text-Primary: #FFFFFF;
+  --State-Background-Focus: #C5D1F7;
+  --Background-Primary-Hover: #151515;
+  --Icon-Contrast: #FFFFFF;
+  --Radius_2: 5px;
+  // /Primary/Disabled
+  --Text-Disabled: #A6A6A6;
+  --State-Background-Disabled: #EFEFEF;
+  --Icon-Disabled: #A6A6A6;
+  --Radius_2: 5px;
+}

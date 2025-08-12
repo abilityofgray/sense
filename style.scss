@@ -1,5 +1,11 @@
 @use './reset.scss';
+
 @use './resource/scss/blocks/container/container.scss';
+@use './resource/scss/blocks/grid/grid.scss';
 @use './resource/scss/blocks/button/button.scss';
-@use './resource/scss/blocks/button/button_size_l.scss';
-@use './resource/scss/blocks/button/button_size_m.scss';
+@use './resource/scss/blocks/button/button_size.scss';
+
+
+@use './resource/scss/blocks/button/primary/button_primary.scss';
+@use './resource/scss/blocks/button/secondary/button_secondary.scss';
+@use './resource/scss/blocks/button/danger/button_danger.scss';
