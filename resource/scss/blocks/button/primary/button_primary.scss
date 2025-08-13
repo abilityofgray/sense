@@ -1,19 +1,18 @@
 .button {
   &__primary {
-    background-color: #272733;
-    color: #FFFFFF;
-    &:hover {
-      background-color: #151515;
+    background-color: var(--Background-Accent);
+    color: var(--Text-Contrast);
+    &:hover:enabled {
+      background-color: var(--Background-Primary-Hover);
     }
-    &:active {
-      background-color: #151515;
-      color: rgba(255, 255, 255, .72);
+    &:active:enabled {
+      background-color: var(--Background-Primary-Hover);
+      color: var(--State-Text-Primary);
     }
-    &:focus-visible {
-      background-color: #151515;
-      border: #C5D1F7 solid 4px;
+    &:focus-visible:enabled {
+      color: var(--State-Text-Primary);
+      background-color: var(--Background-Primary-Hover);
+      border: var(--State-Background-Focus) solid 4px;
     }
-    
-    
   }
 }

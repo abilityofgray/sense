@@ -1,0 +1,17 @@
+.button {
+  &__danger {
+    background-color: var(--Background-Danger-Accent);
+    color: #FFFFFF;
+    &:hover:enabled {
+      background-color: var(--Background-Danger-Hover);
+    }
+    &:active:enabled {
+      background-color: var(--Background-Danger-Hover);
+      color: rgba(255, 255, 255, .72);
+    }
+    &:focus-visible:enabled {
+      //background-color: #151515;
+      border: var(--State-Background-Focus) solid 4px solid 4px;
+    }
+  }
+}

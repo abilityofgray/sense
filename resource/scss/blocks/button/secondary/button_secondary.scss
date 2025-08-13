@@ -1,0 +1,18 @@
+.button {
+  &__secondary {
+    background-color: var(--Background-Secondary-Accent);
+    color: var(--Text-Contrast-Secondary);
+    &:hover:enabled {
+      background-color: var(--Background-Secondary-Hover);
+    }
+    &:active:enabled {
+      background-color: var(--Background-Secondary-Hover);
+      color: var(--State-Text-Secondary);
+    }
+    &:focus-visible:enabled {
+      color: var(--State-Text-Secondary);
+      background-color: var(--Background-Secondary-Accent);
+      border: var(--State-Background-Focus) solid 4px;
+    }
+  }
+}
