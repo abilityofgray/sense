@@ -1,11 +1,12 @@
 .button {
+  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 4px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 14px;
   width: max-content;
   border-radius: var(--Radius_2);
   &__icon-container {

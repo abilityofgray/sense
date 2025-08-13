@@ -11,7 +11,7 @@
     }
     &:focus-visible:enabled {
       background-color: var(--Background-Danger-Hover);
-      border: var(--State-Background-Focus) solid 4px;
+      outline: 4px solid var(--State-Background-Focus);
     }
   }
 }
