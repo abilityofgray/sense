@@ -11,7 +11,7 @@
     }
     &:focus-visible:enabled {
       color: var(--State-Text-Secondary);
-      background-color: var(--Background-Secondary-Accent);
+      background-color: var(--Background-Secondary-Hover);
       border: var(--State-Background-Focus) solid 4px;
     }
   }
