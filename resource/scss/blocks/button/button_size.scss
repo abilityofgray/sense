@@ -1,17 +1,18 @@
 @use '../../../../fonts.scss' as *;
 .button_size {
   &_l {
-    height: 48px;
+    height: 44px;
     padding: 12px 16px;
     @include ibm-plex-sans-bold;
   }
   &_m {
-    height: 40px;
+    height: 36px;
     padding: 8px 12px;
+    @include ibm-plex-sans-bold;
   }
   &_s {
-    @include ibm-plex-sans-regular;
-    height: 28px;
+    height: 24px;
     padding: 2px 8px;
+    @include ibm-plex-sans-regular;
   }
 }

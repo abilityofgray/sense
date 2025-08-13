@@ -10,7 +10,7 @@
       color: var(--State-Text-Primary);
     }
     &:focus-visible:enabled {
-      color: var(--State-Text-Primary);
+      background-color: var(--Background-Primary-Hover);
       outline: 4px solid var(--State-Background-Focus);
     }
   }

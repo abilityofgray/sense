@@ -10,7 +10,7 @@
       color: var(--State-Text-Secondary);
     }
     &:focus-visible:enabled {
-      color: var(--State-Text-Secondary);
+      background-color: var(--Background-Secondary-Hover);
       outline: 4px solid var(--State-Background-Focus);
     }
   }
