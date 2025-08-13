@@ -190,6 +190,10 @@ input[type=file] {
   font-size: 14px;
   width: max-content;
   border-radius: var(--Radius_2);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 .button__icon-container {
   width: 20px;
@@ -209,18 +213,10 @@ input[type=file] {
 .button_size_l {
   height: 44px;
   padding: 12px 16px;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 .button_size_m {
   height: 36px;
   padding: 8px 12px;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 .button_size_s {
   height: 24px;
