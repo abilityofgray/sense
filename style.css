@@ -189,7 +189,6 @@ input[type=file] {
   font-weight: 600;
   font-size: 14px;
   width: max-content;
-  border-radius: var(--Radius_2);
   font-family: "IBM Plex Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -213,14 +212,17 @@ input[type=file] {
 .button_size_l {
   height: 44px;
   padding: 12px 16px;
+  border-radius: var(--Radius_2);
 }
 .button_size_m {
   height: 36px;
   padding: 8px 12px;
+  border-radius: var(--Radius_2);
 }
 .button_size_s {
   height: 24px;
   padding: 2px 8px;
+  border-radius: var(--Radius_2-Size-S);
   font-family: "IBM Plex Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -281,6 +283,7 @@ input[type=file] {
   --Icon-Contrast: #FFFFFF;
   --Icon-Contrast-Secondary: #272733;
   --Radius_2: 8px;
+  --Radius_2-Size-S: 4px;
   --Background-Accent: #272733;
   --Background-Danger-Accent: #E52421;
   --Background-Danger-Hover: #D80F16;
